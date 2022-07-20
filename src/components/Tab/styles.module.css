@@ -1,0 +1,22 @@
+.buttom {
+  height: 21px;
+  color: #391400A3;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+}
+
+.buttom.selected {
+    color: #90E149
+  }
+ 
+ .buttom:hover {
+    color: #90E149;
+    transition: .3s;
+    cursor: pointer;
+  }
+
+  .buttom:not(:last-child) {
+    padding-right: 60px;
+}

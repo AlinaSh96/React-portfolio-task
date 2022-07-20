@@ -1,0 +1,35 @@
+.background{
+    width: 370px;
+    height: 416px;
+}
+.info{
+    width: 300px;
+    position: relative;
+    bottom: 160px;
+    /* left: 48px */
+}
+.button{
+    background-color: #efeded;
+    border: 1px solid #efeded;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 20px 22px 0px 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.text{
+    font-size: 40px;
+}
+  .active {
+    border-radius: 13px;
+    outline: 7px solid #90E149;
+  }
+ 
+ .background:hover {
+    /* border-radius: 13px;
+    outline: 7px solid #90E149; */
+    transition: .3s;
+    cursor: pointer;
+  }

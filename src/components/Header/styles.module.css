@@ -1,0 +1,22 @@
+.root{
+    background-color: #28293e;
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+.headerContainer {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.headerText {
+    text-align: center;
+    font-size: 72px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.headerDescription {
+    font-size: 16px;
+    line-height: 33px;
+    color: #ffffff94;
+    text-align: center;
+}

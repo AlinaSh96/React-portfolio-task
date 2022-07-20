@@ -1,0 +1,41 @@
+.root {
+    padding: 16px 0;
+    box-sizing: border-box;
+    background-color: #28293E;
+    display: flex;
+    justify-content: center;
+    column-gap: 185px;
+    align-items: center;
+}
+
+.list{
+    padding-left: 0;
+    display: flex;
+}
+
+.listElement {
+    list-style-type: none;
+    padding: 0 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.button{
+    height: 48px;
+    width: 138px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #FFFFFF4B;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.button:hover{
+    background-color: #28293e75;
+    transition: 1s;
+}
