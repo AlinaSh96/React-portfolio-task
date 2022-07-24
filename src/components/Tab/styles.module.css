@@ -20,3 +20,9 @@
   .buttom:not(:last-child) {
     padding-right: 60px;
 }
+
+@media (max-width: 600px) {
+  .buttom:not(:last-child) {
+      padding: 0px;
+    }
+}

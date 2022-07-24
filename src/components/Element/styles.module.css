@@ -17,6 +17,7 @@
     margin-bottom: 25px;
     cursor: pointer;
     font-size: 15px;
+    color: #000;
 }
 
 .text{
@@ -28,8 +29,18 @@
   }
  
  .background:hover {
-    /* border-radius: 13px;
-    outline: 7px solid #90E149; */
     transition: .3s;
     cursor: pointer;
+  }
+
+@media (max-width: 400px) {
+  .img {      
+  width: 70%;
+      }
+  .background{
+  height: 300px;
+    }
+    .text{
+      font-size: 30px;
+  }
   }

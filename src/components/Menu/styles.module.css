@@ -39,3 +39,19 @@
     background-color: #28293e75;
     transition: 1s;
 }
+
+@media (max-width: 1200px) {
+    .root {
+      flex-direction: column;
+    }
+    .button {
+        margin-top: 30px;
+      }
+  }
+
+  @media (max-width: 500px) {
+    .list {
+        flex-direction: column;
+        text-align: center;
+      }
+  }

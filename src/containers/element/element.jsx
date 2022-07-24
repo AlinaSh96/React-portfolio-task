@@ -22,7 +22,7 @@ return(
   <div tabIndex="0" onKeyDown = {onKey}  onClick = {onClick} className={classnames(styles.background, {
     [styles.active]: isActive,
   })}>
-<img  src = {elementPath} alt = 'test'/>
+<img  className={classnames(styles.img)} src = {elementPath} alt = 'test'/>
       <div className={classnames(styles.info)}>
         <button className={classnames(styles.button)}>{categoryName}</button>
         <div className={classnames(styles.text)}>{elementName}</div>
