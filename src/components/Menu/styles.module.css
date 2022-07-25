@@ -24,6 +24,11 @@
     cursor: pointer;
 }
 
+.listElement:hover{
+    transition: 0.3s;
+    color: #90E149;
+}
+
 .button{
     height: 48px;
     width: 138px;
@@ -37,7 +42,8 @@
 
 .button:hover{
     background-color: #28293e75;
-    transition: 1s;
+    color: #90E149;
+    transition: 0.3s;
 }
 
 @media (max-width: 1200px) {
@@ -53,5 +59,9 @@
     .list {
         flex-direction: column;
         text-align: center;
+      }
+      .listElement{
+        padding-top: 35px;
+        font-size: 27px;
       }
   }

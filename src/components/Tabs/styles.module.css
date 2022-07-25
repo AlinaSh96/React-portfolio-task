@@ -5,6 +5,6 @@
 
 @media (max-width: 500px) {
 .root {      
-flex-direction: column;
+    flex-wrap: wrap;
     }
 }

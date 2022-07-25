@@ -26,3 +26,15 @@
       padding: 0px;
     }
 }
+@media (max-width: 500px) {
+  .buttom {
+    border: 1px solid;
+    padding: 5px;
+    height: 31px;
+    font-size: 16px;
+    border-radius: 7px;
+    width: 90px;
+    margin: 4px;
+    }
+}
+
